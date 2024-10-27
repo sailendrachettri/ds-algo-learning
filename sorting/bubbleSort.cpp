@@ -37,7 +37,7 @@ void bubbleSort(vector<int> &arr){
 
 int main(){
 
-    vector<int> nums = {1, 2, 3, 6, 5};
+    vector<int> nums = {1, 0, 2, 0, 1, 0, 0};
     // vector<int> nums = {4, 1, 5, 2, 3};
     printArr(nums);
 
