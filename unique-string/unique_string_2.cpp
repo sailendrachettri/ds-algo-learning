@@ -9,7 +9,7 @@ bool check_for_unique(string &str){
         if(vec[ch]) return false;
 
         vec[ch] = true;  
-        vec[ch] = true; 
+        vec[ch] = true;     
     }
 
     return true; 
