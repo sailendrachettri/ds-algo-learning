@@ -1,3 +1,31 @@
+'''
+Problem: Check if One String is a Permutation of Another
+Difficulty: Easy
+
+Problem Statement:
+Given two strings, s1 and s2, write a function to determine if s1 is a permutation of s2.
+A string is a permutation of another if it contains the same characters in the same quantities, but possibly in a different order.
+
+Return true if s1 is a permutation of s2, otherwise return false.
+
+Example:
+Example 1:
+
+plaintext
+Copy code
+Input: s1 = "abc", s2 = "bca"
+Output: true
+Explanation: "bca" is a permutation of "abc".
+Example 2:
+
+plaintext
+Copy code
+Input: s1 = "abc", s2 = "def"
+Output: false
+Explanation: "def" does not contain the same characters as "abc".
+
+'''
+
 #include <iostream>
 
 using namespace std;
