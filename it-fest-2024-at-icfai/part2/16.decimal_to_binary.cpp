@@ -6,7 +6,7 @@ int main(){
 
     int val = 9;
 
-    bitset<4> convert(15);
+    bitset<4> convert(val);
 
     cout << convert << endl;
 
