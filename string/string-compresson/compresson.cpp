@@ -25,7 +25,8 @@ string string_compresson(string &s){
 
 int main(){
 
-    string str = "zzaabbbbccdeff";
+    // string str = "zzaabbbbccdeffaa";
+    string str = "zzaabbbbccddrzegffaa";
 
     string result = string_compresson(str);
 
