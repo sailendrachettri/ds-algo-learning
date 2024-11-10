@@ -17,9 +17,9 @@ int main(){
         }
         
         // Print the descending part of the palindrome
-        // for (int j = i - 1; j >= 1; j--) {
-        //     cout << j << " ";
-        // }
+        for (int j = i - 1; j >= 1; j--) {
+            cout << j << " ";
+        }
 
         for(int sp = row; sp >= i; sp--){
             cout << "* ";
