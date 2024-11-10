@@ -1,0 +1,4 @@
+To solve a any pattern problem
+     - make a square
+     - reconize the pattern and
+     - divide each section in square
