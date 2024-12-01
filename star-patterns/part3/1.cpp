@@ -3,23 +3,28 @@ using namespace std;
 
 int main(){
 
-    int rows = 4;
+    int rows = 5;
 
-
-    int val = 0;
-    for(int i = 1; i <= rows; i++){
-        for(int sp = rows; sp >= i; sp--){
-            cout << " ";
-        }
-
+    for(int i = 0; i <= rows; i++){
         for(int j = 0; j < i; j++){
-            cout << char('A'+j);
-        }
-        for(int j = i-1; j >= 1; j--){
-            cout << char('A'+j-1);
+            cout << char('A'+rows+j-i)<< " ";
         }
         cout << endl;
     }
+
+    // for(int i = 1; i <= rows; i++){
+    //     for(int sp = rows; sp >= i; sp--){
+    //         cout << " ";
+    //     }
+
+    //     for(int j = 0; j < i; j++){
+    //         cout << char('A'+j);
+    //     }
+    //     for(int j = i-1; j >= 1; j--){
+    //         cout << char('A'+j-1);
+    //     }
+    //     cout << endl;
+    // }
 
 
 
