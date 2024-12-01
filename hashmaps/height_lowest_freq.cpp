@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 
-    vector<int> arr = {11, 3, 2,2,2,4, 4, 4, 1, 1, 2, 0, 6, 0, 5, 913, 13, 13, 13, 3, 3, 1, 5, 6};
+    vector<int> arr = {6, 2, 3, 2, 2, 5, 6, 5, 6};
     unordered_map<int, int> freq;
 
     int highFreq = INT_MIN, lowFreq = INT_MAX;

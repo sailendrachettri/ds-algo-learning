@@ -3,12 +3,72 @@ using namespace std;
 
 int main(){
 
-    int rows = 9;
+    int rows = 5;
+
+
+    for(int i = 1; i < rows; i++){
+        for(int j = 1; j <= i; j++){
+            cout << j;
+        }
+
+        for(int sp = rows; sp > i+1; sp--){
+            cout << "  ";
+        }
+
+        for(int j = i; j >= 1; j--){
+            cout << j;
+        }
+        cout << endl;
+    }
 
 
 
 
-    
+    // for(int i = 0; i < rows; i++){
+        
+    //     for(int j = 0; j <= i; j++){
+    //         if(i%2 == 0){
+    //             if(j%2 == 0) cout << 1 << " ";
+    //             else cout << 0 << " ";
+    //         }
+    //         else if(i%2 == 1){
+    //             if(j%2 == 0) cout << 0 << " ";
+    //             else cout << 1 << " ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+
+    // for(int i = 0; i < rows; i++){
+    //     for(int j = 0; j <= i; j++){
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+    // for(int i = rows-2; i >= 0; i--){
+    //     for(int j = 0; j <= i; j++){
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+
+
+
+
+
+
+
+
+    // for(int i = 0; i < rows; i++){
+    //     for(int j = 0; j <= i; j++){
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+
+
+
 
 
 
